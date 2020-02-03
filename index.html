@@ -22,42 +22,42 @@
 <body>
 
     <header class="head-wrapper">
-        <div class="container-fluid text-center">
-            <div class="col-lg-12 text-center">
-                <a class="a-neutro" href=""><i class="icon-bar icon-logo fas fa-code"></i></a>
-                <h3 style="display: none;">.dev</h3>
+        <div class="container-fluid">
+            <div class="col-lg-12 text-center logo-div">
+                <a class="a-neutro" href=""><i class="icon-logo fas fa-code"></i></a>
+                <h3 class="sub-logo">.DEv</h3>
             </div>
             <div class="col-lg-12 mainicons-wrapper">
                 <table class="icons-table">
                     <tr>
                         <td>
-                            <a class="a-neutro" href=""><i class="icon-bar fas fa-home"></i></a>
+                            <a class="a-neutro" href=""><i class="icon-row icon-bar fas fa-home"></i></a>
                         </td>
-                        <td class="info-tab">Home</td>
+                        <td class="icon-row info-tab" style="display: none;">home</td>
                     </tr>
                     <tr>
                         <td>
                             <a class="a-neutro" href=""><i class="icon-bar far fa-file-code"></i></a>
                         </td>
-                        <td class="info-tab">Projetos</td>
+                        <td class="info-tab" style="display: none;">projetos</td>
                     </tr>
                     <tr>
                         <td>
                             <a class="a-neutro" href=""><i class="icon-bar fab fa-github"></i></a>
                         </td>
-                        <td class="info-tab">Repositório</td>
+                        <td class="info-tab" style="display: none;">repositório</td>
                     </tr>
                     <tr>
                         <td>
                             <a class="a-neutro" href=""><i class="icon-bar far fa-envelope"></i></a>
                         </td>
-                        <td class="info-tab">Contato</td>
+                        <td class="info-tab" style="display: none;">contato</td>
                     </tr>
                     <tr>
                         <td>
                             <a class="a-neutro" href=""><i class="icon-bar fab fa-linkedin-in"></i></a>
                         </td>
-                        <td class="info-tab">LinkedIn</td>
+                        <td class="info-tab" style="display: none;">linkedin</td>
                     </tr>
                 </table>
             </div>
@@ -102,6 +102,20 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
+            $('.head-wrapper').mouseenter(function () {
+                $(this).css('width', '210px');
+                $('.info-tab').show('slow');
+                $('.info-tab').css('animation', 'fading 3s');
+                $('.logo-div').css('color', '#ff5454');
+                $('.sub-logo').show();
+                $('.icon-logo').css('color', '#ff5454');
+            }).mouseleave(function () {
+                $(this).css('width', '70px');
+                $('.info-tab').hide();
+                $('.logo-div').css("color", '#ffffff');
+                $('.sub-logo').hide();
+                $('.icon-logo').css('color', '#ffffff');
+            });
         });
     </script>
 </body>

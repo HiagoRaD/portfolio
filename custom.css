@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:400,500,600|Major+Mono+Display|Roboto:400,500,700|Varela+Round&display=swap');
+
+/* 
+palet1 : #00eeff azul
+palet2 : #ff5454 vermelho
+*/
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #292a2b;
+}
+.a-neutro {
+    color: inherit;
+    text-decoration: none;
+}
+.a-neutro:hover {
+    color: inherit;
+    text-decoration: none;
+}
+.reset {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+/*MENUBAR*/
+.head-wrapper div {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+.head-wrapper {
+    display: block;
+    position: fixed;
+    
+    background-color: #1a1a1a;
+    width: 70px;
+    height: 100vh;
+    border-right: 4px solid #ff5454;
+
+    transition: 1.0s;
+    z-index: 99;
+}
+.logo-div {
+    position: absolute;
+    top: 0;
+}
+.sub-logo {
+    display: none;
+    color: #ff5454;
+    font-family: 'Major Mono Display', monospace;
+    transition: 0.8s;
+}
+.icon-logo {
+    margin-top: 15px;
+    font-size: 35px !important;
+    color: #ffffff;
+    transition: 0.3s;
+}
+.icon-logo:hover {
+    transition: 0.9s;
+    cursor: pointer;
+    color: #ff5454;
+}
+.icon-row:hover {
+    transition: 0.3s;
+}
+.icon-row:hover {
+    transition: 0.9s;
+    color: #ff5454;
+    cursor: pointer !important;
+}
+
+.icon-bar {
+    font-size: 24px;
+    color: #ffffff;
+    transition: 0.3s;
+}
+.icon-bar:hover {
+    transition: 0.9s;
+    cursor: pointer;
+    color: #ff5454;
+}
+.info-tab {
+    display: none;
+    font-family: 'Major Mono Display', monospace;
+    display: block;
+    color: #ffffff;
+    padding-top: 28px;
+    font-size: 17px;
+
+    transition: 3s;
+}
+.icons-table {
+    width: 100%;
+    height: 50vh;
+}
+.icons-table {
+    
+    margin-left: 20px;
+}
+.icons-table tr {
+    margin-bottom: 15px;
+}
+.icons-table tr:hover {
+    cursor: pointer;
+}
+.mainicons-wrapper {
+    margin-top: 130px !important;
+}
+/*END_MENUBAR*/
+
+
+
+
+h1 {
+    color: #ffffff;
+    font-size: 30px;
+}
+.family-1 {
+    font-family: 'Major Mono Display', monospace;
+}
+.family-2 {
+    font-family: 'Varela Round', sans-serif;
+}
+.family-3 {
+    font-family: 'Advent Pro', sans-serif;
+}
+.family-4 {
+    font-family: 'Roboto', sans-serif;
+}
