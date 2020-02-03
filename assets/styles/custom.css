@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:400,500,600|Major+Mono+Display|Roboto:400,500,700|Varela+Round&display=swap');
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #292a2b;
+}
+.a-neutro {
+    color: inherit;
+    text-decoration: none;
+}
+.a-neutro:hover {
+    color: inherit;
+    text-decoration: none;
+}
+.reset {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+/*MENUBAR*/
+.head-wrapper div {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+.head-wrapper {
+    display: block;
+    position: fixed;
+    
+    background-color: #1a1a1a;
+    width: 70px;
+    height: 100vh;
+    border-right: 4px solid #00eeff;
+
+    z-index: 99;
+}
+.icon-logo {
+    margin-top: 15px;
+    font-size: 35px !important;
+}
+.icon-bar {
+    font-size: 24px;
+    color: #ffffff;
+}
+.icon-bar:hover {
+    transition: 1.5s;
+    cursor: pointer;
+    color: #00eeff;
+}
+.info-tab {
+    display: none;
+}
+.icons-table {
+    width: 100%;
+    height: 50vh;
+}
+.icons-table tr {
+    margin-bottom: 15px;
+}
+.mainicons-wrapper {
+    margin-top: 100px !important;
+}
+/*END_MENUBAR*/
+
+
+
+
+h1 {
+    color: #ffffff;
+    font-size: 30px;
+}
+.family-1 {
+    font-family: 'Major Mono Display', monospace;
+}
+.family-2 {
+    font-family: 'Varela Round', sans-serif;
+}
+.family-3 {
+    font-family: 'Advent Pro', sans-serif;
+}
+.family-4 {
+    font-family: 'Roboto', sans-serif;
+}
