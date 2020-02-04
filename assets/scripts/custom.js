@@ -5,7 +5,7 @@ $('i').addClass(_PALHETA);
 $(document).ready(function () {
     // Side menu animations - DESKTOP
     $('.head-wrapper').mouseenter(function () {
-        $(this).css('width', '210px');
+        $(this).css('width', '15%');
         $('.info-tab').show();
         $('.info-tab').addClass('animated fadeIn delay-1');
         $('.logo-div').css('color', '#ff5454');
@@ -24,6 +24,7 @@ $(document).ready(function () {
     });
 
     var current = "";
+    console.log("current " + current);
     // btn go to 
     $('.goto').click(function() {
         current = $(this).attr('id').split('_')[0];
@@ -32,6 +33,26 @@ $(document).ready(function () {
         $('.' + current).hide();
         
         $('.' + next).show();
-        $('.' + next).addClass('animated fadeInDown');
+        if ($(window).width() < 960) {
+            $('.' + next).addClass('animated fadeInRight');
+        }
+        else {
+            $('.' + next).addClass('animated fadeInDown');
+        }
+    });
+
+    // mobile menu animations
+    $('#open-mob-menu').click(function() {
+        $('.head-wrapper').addClass('animated slideInLeft');
+        $('.head-wrapper').show();
+        $(this).hide();
+        $('#close-mob-menu').show();
+    });
+
+    $('#close-mob-menu').click(function() {
+        $('.head-wrapper').hide();
+        // $('.head-wrapper').addClass('animated slideOutLeft');
+        $(this).hide();
+        $('#open-mob-menu').show();
     });
 });

@@ -15,6 +15,9 @@ palet3 :
 .color {
     color: #ff5454 !important;
 }
+.active {
+    color: #ff5454;
+}
 body{
     padding: 0px;
     margin: 0px;
@@ -36,6 +39,16 @@ h2 {
 }
 strong {
     color: #ff5454;
+}
+p {
+    font-family: 'Advent Pro', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 7px;
+}
+footer {
+    margin-top: 150px;
 }
 .a-neutro {
     color: inherit;
@@ -81,10 +94,18 @@ strong {
     transition: 0.8s;
     font-size: 24px;
 }
+.line {
+    background-color: #ff5454;
+    height: 3px;
+    width: 100%;
+
+    margin: 20px 0px;
+}
 
 /*PAGES*/
-.home { display:block; }
-.about-me { display: none;}
+.home     { display: none; }
+.about-me { display: none; }
+.projetos { display: block; }
 
 /*END_PAGES*/
 
@@ -132,10 +153,11 @@ strong {
     color: #ff5454;
 }
 .icon-row:hover {
-    transition: 0.3s;
+    transition: 0.1s;
 }
 .icon-row:hover {
-    transition: 0.9s;
+    transition: 0.5s;
+    text-decoration: #ff5454;
     color: #ff5454;
     cursor: pointer !important;
 }
@@ -151,11 +173,10 @@ strong {
     color: #ff5454;
 }
 .info-tab {
-    display: none;
     font-family: 'Major Mono Display', monospace;
     display: block;
     color: #ffffff;
-    padding-top: 22px;
+    padding-top: 21px;
     font-size: 17px;
 
     transition: 3s;
@@ -181,30 +202,45 @@ strong {
 
 .profile-pic {
     border-radius: 50%;
+    border: 3px solid #ff5454;
     width: 160px;
     height: 160px;
+}
+.about-me h1 {
+    margin-bottom: 40px;
+}
+.about-me .profile-pic {
+    margin-top: 75px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.projects-title {
+    color: #ff5454;
+    border-bottom: 3px solid #ff5454;
 }
 
 
 /* RESPONSIVE CSS */
-
-@media screen and (max-width: 768px) {
-
+.menuicon-div {
+    padding-right: 40px;
 }
-
 @media screen and (max-width: 992px) {
-    h1 {
-        margin-top: 20px;
+    #close-mob-menu {
+        display: none;
     }
-
+    h1 {
+        margin-top: 35px;
+    }
     .pdg-sides-0-divs {
         padding: 0px 25px;
     }
     .head-wrapper { 
         display: none; 
+        width: 80%;
     }
     .info-tab { 
-        display: block; 
+        display: block !important; 
+        padding-top: 20px;
     }
     .logo-div { 
         display: none; 
@@ -219,5 +255,14 @@ strong {
     }
     .top-menubar-mob .fa-bars {
         float: right;
+    }
+    .top-menubar-mob .fa-times {
+        float: right;
+    }
+    .mainicons-wrapper {
+        margin-top: 10px !important;
+    }
+    .sub-logo {
+        display: block;
     }
 }
