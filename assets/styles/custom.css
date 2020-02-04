@@ -103,9 +103,9 @@ footer {
 }
 
 /*PAGES*/
-.home     { display: none; }
+.home     { display: block; }
 .about-me { display: none; }
-.projetos { display: block; }
+.projetos { display: none; }
 
 /*END_PAGES*/
 
