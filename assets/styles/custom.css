@@ -1,13 +1,41 @@
-@import url('https://fonts.googleapis.com/css?family=Advent+Pro:400,500,600|Major+Mono+Display|Roboto:400,500,700|Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:400,500,600,700|Major+Mono+Display&display=swap');
 
+
+.family-1 {
+    font-family: 'Major Mono Display', monospace;
+}
+.family-3 {
+    font-family: 'Advent Pro', sans-serif;
+}
 /* 
-palet1 : #00eeff azul
+palet1 : #ff5454 azul
 palet2 : #ff5454 vermelho
+palet3 : 
 */
+.color {
+    color: #ff5454 !important;
+}
 body{
     padding: 0px;
     margin: 0px;
     background-color: #292a2b;
+}
+h1, h2 {
+    font-family: 'Major Mono Display', monospace;
+}
+h1 {
+    color: #ffffff;
+    font-size: 55px;
+    margin-top: 120px;
+}
+h2 {
+    color: #ffffff;
+    font-size: 26px;
+    margin-top: 30px;
+    line-height: 40px;
+}
+strong {
+    color: #ff5454;
 }
 .a-neutro {
     color: inherit;
@@ -21,6 +49,44 @@ body{
     padding: 0px 0px;
     margin: 0px 0px;
 }
+.delay-1 {
+    animation-delay: 0.4s;
+}
+.delay-2 {
+    animation-delay: 0.2s;
+}
+.pdg-sides-0-divs div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.btn {
+    background: transparent;
+    width: 100%;
+    border-radius: 8px;
+    border: 3px solid #ff5454;
+    padding: 10px 10px;
+    margin-top: 50px;
+    
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    color: #ff5454;
+    transition: 0.8s;
+    font-size: 24px;
+}
+
+/*PAGES*/
+.home { display:block; }
+.about-me { display: none;}
+/*END_PAGES*/
+
 
 /*MENUBAR*/
 .head-wrapper div {
@@ -47,6 +113,10 @@ body{
     display: none;
     color: #ff5454;
     font-family: 'Major Mono Display', monospace;
+    transition: 0.8s;
+}
+.appear-08s {
+    display: block;
     transition: 0.8s;
 }
 .icon-logo {
@@ -84,7 +154,7 @@ body{
     font-family: 'Major Mono Display', monospace;
     display: block;
     color: #ffffff;
-    padding-top: 28px;
+    padding-top: 22px;
     font-size: 17px;
 
     transition: 3s;
@@ -108,22 +178,8 @@ body{
 }
 /*END_MENUBAR*/
 
-
-
-
-h1 {
-    color: #ffffff;
-    font-size: 30px;
-}
-.family-1 {
-    font-family: 'Major Mono Display', monospace;
-}
-.family-2 {
-    font-family: 'Varela Round', sans-serif;
-}
-.family-3 {
-    font-family: 'Advent Pro', sans-serif;
-}
-.family-4 {
-    font-family: 'Roboto', sans-serif;
+.profile-pic {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
 }
