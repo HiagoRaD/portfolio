@@ -23,15 +23,15 @@ $(document).ready(function () {
         $('.icon-bar').css('color', '#ffffff');
     });
 
-
+    var current = "";
     // btn go to 
     $('.goto').click(function() {
-        var current = $(this).attr('id').split('_')[0];
+        current = $(this).attr('id').split('_')[0];
         var next = $(this).attr('id').split('_')[2];
 
-        $('.home').addClass('animated fadeOutDown');
+        $('.' + current).hide();
         
-        $('.about-me').show();
-        $('.about-me').addClass('animated fadeInDown');
+        $('.' + next).show();
+        $('.' + next).addClass('animated fadeInDown');
     });
 });

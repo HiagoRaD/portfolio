@@ -85,6 +85,7 @@ strong {
 /*PAGES*/
 .home { display:block; }
 .about-me { display: none;}
+
 /*END_PAGES*/
 
 
@@ -182,4 +183,41 @@ strong {
     border-radius: 50%;
     width: 160px;
     height: 160px;
+}
+
+
+/* RESPONSIVE CSS */
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 992px) {
+    h1 {
+        margin-top: 20px;
+    }
+
+    .pdg-sides-0-divs {
+        padding: 0px 25px;
+    }
+    .head-wrapper { 
+        display: none; 
+    }
+    .info-tab { 
+        display: block; 
+    }
+    .logo-div { 
+        display: none; 
+    }
+
+    .top-menubar-mob {
+        background-color: #1a1a1a;
+        height: 65px; 
+    }
+    .top-menubar-mob .fa-code {
+        margin-left: 20px; 
+    }
+    .top-menubar-mob .fa-bars {
+        float: right;
+    }
 }
