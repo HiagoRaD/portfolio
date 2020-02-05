@@ -4,6 +4,11 @@
 .family-1 {
     font-family: 'Major Mono Display', monospace;
 }
+.family-2 {
+    font-family: 'Lakers';
+    font-weight: normal;
+    font-style: normal;
+}
 .family-3 {
     font-family: 'Advent Pro', sans-serif;
 }
@@ -12,6 +17,7 @@ palet1 : #ff5454 azul
 palet2 : #ff5454 vermelho
 palet3 : 
 */
+
 .color {
     color: #ff5454 !important;
 }
@@ -27,8 +33,10 @@ h1, h2 {
     font-family: 'Major Mono Display', monospace;
 }
 h1 {
+    font-family: 'Lakers';
+    letter-spacing: 10px;
     color: #ffffff;
-    font-size: 55px;
+    font-size: 80px;
     margin-top: 120px;
 }
 h2 {
