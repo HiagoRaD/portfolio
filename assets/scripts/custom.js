@@ -23,7 +23,8 @@ $(document).ready(function () {
         $('.icon-bar').css('color', '#ffffff');
     });
 
-    var current = "";
+    var current = "home";
+
     console.log("current " + current);
     // btn go to 
     $('.goto').click(function() {
@@ -39,6 +40,8 @@ $(document).ready(function () {
         else {
             $('.' + next).addClass('animated fadeInDown');
         }
+        current = next;
+        console.log("current " + current);
     });
 
     // mobile menu animations

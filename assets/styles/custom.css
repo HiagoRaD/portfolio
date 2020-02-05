@@ -111,15 +111,14 @@ h1 .dev-logo {
 .line {
     background-color: #ff5454;
     height: 3px;
-    width: 100%;
 
     margin: 20px 0px;
 }
 
 /*PAGES*/
-.home     { display: block; }
+.home     { display: none; }
 .about-me { display: none; }
-.projetos { display: none; }
+.projetos { display: block; }
 
 /*END_PAGES*/
 
@@ -230,7 +229,24 @@ h1 .dev-logo {
 }
 .projects-title {
     color: #ff5454;
-    border-bottom: 3px solid #ff5454;
+    margin-bottom: 10px;
+}
+.project-row div:first-child {
+    margin-left: 0px;
+}
+.project-row div {
+    padding: 10px;
+}
+.project-row {
+    margin-bottom: 100px;
+}
+.project-row {
+    margin-bottom: 140px!important;
+}
+.img-project {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 
