@@ -38,6 +38,7 @@ h1 {
     color: #ffffff;
     font-size: 80px;
     margin-top: 120px;
+    line-height: 60px;
 }
 h2 {
     color: #ffffff;
@@ -57,6 +58,11 @@ p {
 }
 footer {
     margin-top: 150px;
+}
+h1 .dev-logo {
+    letter-spacing: initial;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 45px;
 }
 .a-neutro {
     color: inherit;
