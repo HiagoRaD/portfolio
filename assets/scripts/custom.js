@@ -16,6 +16,7 @@ $(document).ready(function () {
         $('.icon-bar').css('color', '#ff5454');
     }).mouseleave(function () {
         $(this).css('width', '70px');
+
         $('.info-tab').hide();
         $('.sub-logo').hide();
         $('.logo-div').css("color", '#ffffff');
@@ -29,11 +30,14 @@ $(document).ready(function () {
     // btn go to 
     $('.goto').click(function() {
         current = $(this).attr('id').split('_')[0];
+
+        console.log("current " + current);
         var next = $(this).attr('id').split('_')[2];
 
         $('.' + current).hide();
         
         $('.' + next).show();
+
         if ($(window).width() < 960) {
             $('.' + next).addClass('animated fadeInRight');
         }
@@ -44,8 +48,29 @@ $(document).ready(function () {
         console.log("current " + current);
     });
 
+    // tab btn go to
+    $('.tab-goto').click(function () {
+
+        console.log("current " + current);
+        var next = $(this).attr('id').split('_')[1];
+
+        $('.' + current).hide();
+
+
+        if ($(window).width() < 960) {
+            $('.' + next).addClass('animated fadeInRight');
+            $('#close-mob-menu').click();
+        }
+        else {
+            $('.' + next).addClass('animated fadeInDown');
+        }
+        $('.' + next).show();
+        current = next;
+    });
+
     // mobile menu animations
     $('#open-mob-menu').click(function() {
+        $('.head-wrapper').removeClass('animated slideOutLeft');
         $('.head-wrapper').addClass('animated slideInLeft');
         $('.head-wrapper').show();
         $(this).hide();
@@ -53,8 +78,8 @@ $(document).ready(function () {
     });
 
     $('#close-mob-menu').click(function() {
-        $('.head-wrapper').hide();
-        // $('.head-wrapper').addClass('animated slideOutLeft');
+        $('.head-wrapper').removeClass('animated slideInLeft');
+        $('.head-wrapper').addClass('animated slideOutLeft');
         $(this).hide();
         $('#open-mob-menu').show();
     });
