@@ -3,25 +3,29 @@ var _PALHETA = '.color-ff5454';
 $('i').addClass(_PALHETA);
 
 $(document).ready(function () {
-    // Side menu animations - DESKTOP
+    // // Side menu animations - DESKTOP
     $('.head-wrapper').mouseenter(function () {
-        $(this).css('width', '15%');
-        $('.info-tab').show();
-        $('.info-tab').addClass('animated fadeIn delay-1');
-        $('.logo-div').css('color', '#ff5454');
-        $('.sub-logo').show();
-        $('.sub-logo').addClass('animated fadeIn delay-2');
-        $('.icon-logo').css('color', '#ff5454');
-        $('.icon-logo').addClass('animated fadeIn');
-        $('.icon-bar').css('color', '#ff5454');
+        if ($(window).width() > 960) {
+            $(this).css('width', '15%');
+            $('.info-tab').show();
+            $('.info-tab').addClass('animated fadeIn delay-1');
+            $('.logo-div').css('color', '#ff5454');
+            $('.sub-logo').show();
+            $('.sub-logo').addClass('animated fadeIn delay-2');
+            $('.icon-logo').css('color', '#ff5454');
+            $('.icon-logo').addClass('animated fadeIn');
+            $('.icon-bar').css('color', '#ff5454');
+        }
     }).mouseleave(function () {
-        $(this).css('width', '70px');
+        if ($(window).width() > 960) {
+            $(this).css('width', '70px');
 
-        $('.info-tab').hide();
-        $('.sub-logo').hide();
-        $('.logo-div').css("color", '#ffffff');
-        $('.icon-logo').css('color', '#ffffff');
-        $('.icon-bar').css('color', '#ffffff');
+            $('.info-tab').hide();
+            $('.sub-logo').hide();
+            $('.logo-div').css("color", '#ffffff');
+            $('.icon-logo').css('color', '#ffffff');
+            $('.icon-bar').css('color', '#ffffff');
+        }
     });
 
     var current = "home";
@@ -29,6 +33,8 @@ $(document).ready(function () {
     console.log("current " + current);
     // btn go to 
     $('.goto').click(function() {
+        $(window).scrollTop('0px');
+
         current = $(this).attr('id').split('_')[0];
 
         console.log("current " + current);
@@ -50,6 +56,8 @@ $(document).ready(function () {
 
     // tab btn go to
     $('.tab-goto').click(function () {
+        $(window).scrollTop('0px');
+
 
         console.log("current " + current);
         var next = $(this).attr('id').split('_')[1];

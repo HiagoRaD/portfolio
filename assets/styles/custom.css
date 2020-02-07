@@ -355,7 +355,8 @@ h1 .dev-logo {
     }
     h1 {
         margin-top: 35px;
-        line-height: 80px;
+        line-height: 70px;
+        font-size: 65px;
     }
     
     .pdg-sides-0-divs {
@@ -391,5 +392,19 @@ h1 .dev-logo {
     }
     .sub-logo {
         display: block;
+    }
+    .contact-list {
+        font-size: 20px;
+    } 
+    .text-center-mob {
+        text-align: center !important;
+    }
+    .about-me .profile-pic {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .about-me h1 {
+        margin-bottom: 20px;
     }
 }
