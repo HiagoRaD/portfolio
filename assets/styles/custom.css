@@ -98,6 +98,11 @@ h1 .dev-logo {
     padding-left: 0px;
     padding-right: 0px;
 }
+.force-center {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin: 0 auto !important;
+}
 
 .btn {
     background: transparent;
@@ -128,9 +133,9 @@ h1 .dev-logo {
 }
 
 /*PAGES*/
-.home     { display: block; }
+.home     { display: none; }
 .about-me { display: none; }
-.projetos { display: none; }
+.projetos { display: block; }
 .contato  { display: none; }
 
 /*END_PAGES*/
@@ -243,19 +248,32 @@ h1 .dev-logo {
 .project:first-child {
     margin-left: 0px;
 }
-.project {
-    padding-right: 30px !important;
-}
 .project-row {
     margin-bottom: 100px;
 }
 .project-row {
     margin-bottom: 140px!important;
 }
-.img-project {
-    display: block;
-    max-width: 100%;
-    height: auto;
+.project {
+    cursor: pointer;
+    background-color: #ff5454;
+    height: 300px;
+    display: table;
+}
+.hover-wrapper { 
+    display: table-cell;
+    vertical-align: middle;
+    transition: 1s; 
+}
+.icon-wrapper {
+    background-color: #ff54547c;
+    border-radius: 50%;
+    width: fit-content;
+    height: fit-content;
+}
+.icon-wrapper .fas {
+    padding: 10px 10px;
+    font-size: 25px;
 }
 
 .contact-list {
@@ -286,6 +304,14 @@ h1 .dev-logo {
 .contact-list .a-neutro:active  {
     color: #ffffff;
 }
+
+/* #project-1 { background-image: url('../images/teste.png');}
+#project-2 { background-image: url('../images/teste.png');}
+#project-3 { background-image: url('../images/teste.png');}
+#project-4 { background-image: url('../images/teste.png');}
+#project-5 { background-image: url('../images/teste.png');}
+#project-6 { background-image: url('../images/teste.png');} */
+
 
 
 

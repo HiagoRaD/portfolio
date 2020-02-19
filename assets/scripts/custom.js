@@ -91,4 +91,13 @@ $(document).ready(function () {
         $(this).hide();
         $('#open-mob-menu').show();
     });
+
+    // projects animations
+    $('.project').mouseenter(function () {
+        $($(this).attr('hover-toggle')).toggleClass('hidden');
+        $($(this).attr('hover-toggle')).removeClass('animated fadeOut');
+        $($(this).attr('hover-toggle')).addClass('animated fadeIn');        
+    }).mouseleave(function () {   
+        $($(this).attr('hover-toggle')).toggleClass('hidden');        
+    });
 });
