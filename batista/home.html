@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <!--bootstrap-->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!--style css-->
+    <link href="assets/styles/custom.css" rel="stylesheet" />
+    
+    <link href="assets/font/effra/effra.css" rel="stylesheet" />
+    
+    <link href="assets/styles/animate.css" rel="stylesheet" />
+    
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <img src="assets/images/LOGO BATISTA.svg" class="logo_batista">
+                </div>
+                <div class="col-xs-12 subtitulo">
+                    <h1 id="h1">Ética,<br>simples,<br>eficaz<br>e criativa</h1>
+                </div>
+                <div class="col-xs-12 arrow-down">
+                    <img id="arrow-down" src="assets/images/arrowdown.png">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div id="scroll-div" class="container-fluid">
+            <div class="container" style="padding-bottom: 15px;">
+                <section>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h2 class="margin-top-30" style="font-size: 26px;">Anamaria J. Batista e David</h2>
+                            <p class="sobre-batista">Atuação nos departamentos de <strong class="destaque-sobre-batista">direito empresarial cível</strong> dos mais renomados escritórios de advocacia do sul do país, nas
+                            áreas de <strong class="destaque-sobre-batista">contencioso, procedimento arbitral e consultoria</strong></p>
+                        </div>
+                    </div>
+                </section>
+                
+                <section>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <a class="btn btn-light btn-outline-dark botao-homepage" style="margin-bottom: 19px" href="profissional.html">a profissional</a>
+                            <a class="btn btn-light btn-outline-dark botao-homepage" style="margin-bottom: 19px" href="atuacao.html">atuação</a>
+                            <a class="btn btn-light btn-outline-dark botao-homepage" style="margin-bottom: 19px" href="artigos.html">artigos</a>
+                            <a class="btn btn-light btn-outline-dark botao-homepage" style="margin-bottom: 19px" href="contato.html">contato</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="container-fluid bg-cinza-claro">
+            <section>
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-xs-12 acompanhe">
+                            <p style="font-size: 14px;">acompanhe:</p>
+                        </div>
+                        <div class="col-xs-12">
+                            <a href=""><i class="fab fa-facebook-square icon-home"></i></a>
+                            <a href=""><i class="fab fa-instagram icon-home"></i></a>
+                            <a href=""><i class="fab fa-linkedin icon-home"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid footer">
+            <div class="col-lg-8 col-md-8 col-ls-8 col-xs-8 text-left">
+                <p class="copyright-batista">© BATISTA - Todos os direitos reservados</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-ls-4 col-xs-4 text-right">
+                <a href="http://www.doma.ag/" target="_blank"><img src="assets/images/LOGO DOMA.svg" class="logo-doma"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!--jquey-->
+    <script src="assets/scripts/jquery-3.4.1.min.js"></script>
+    <!--botstrap js-->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!--Fontes - icones-->
+    <script src="https://kit.fontawesome.com/4e8c038b88.js" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".logo_batista").css("display", "block");
+            $(".logo_batista").addClass('animated fadeInDown');
+
+            $("#h1").css("display", "block");
+            $("#h1").addClass('animated fadeInDown');
+            $(".arrow-down").addClass('animated fadeInDown');
+
+            $("#arrow-down").click(function (event) {
+
+                event.preventDefault();
+                $("#arrow-down").addClass('animated pulse');
+                $("html, body").animate({
+                    scrollTop: $("#scroll-div").offset().top
+                }, 1000);
+            });
+        });
+    </script>
+</body>
+</html>

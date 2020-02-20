@@ -1,0 +1,377 @@
+body{
+    font-family: 'Effra', sans-serif;
+}
+
+/*padding/margin*/
+.pdg-0{padding:0}.pdg-top-10{padding-top:10px}.pdg-top-20{padding-top:20px}.pdg-top-30{padding-top:30px}.pdg-top-40{padding-top:40px}.pdg-top-50{padding-top:50px}.pdg-top-60{padding-top:60px}.pdg-top-70{padding-top:70px}.pdg-btm-10{padding-bottom:10px}.pdg-btm-20{padding-bottom:20px}.pdg-btm-30{padding-bottom:30px}.pdg-btm-40{padding-bottom:40px}.pdg-btm-50{padding-bottom:50px}.pdg-btm-60{padding-bottom:60px}.pdg-btm-70{padding-bottom:70px}.mgn-top-10{margin-top:10px}.mgn-top-20{margin-top:20px}.mgn-top-30{margin-top:30px}.mgn-top-40{margin-top:40px}.mgn-top-50{margin-top:50px}.mgn-top-60{margin-top:60px}.mgn-top-70{margin-top:70px}.mgn-btm-10{margin-bottom:10px}.mgn-btm-20{margin-bottom:20px}.mgn-btm-30{margin-bottom:30px}.mgn-btm-40{margin-bottom:40px}.mgn-btm-50{margin-bottom:50px}.mgn-btm-60{margin-bottom:60px}.mgn-btm-70{margin-bottom:70px}.mgn-btm-100{margin-bottom:100px}.mgn-right-10 {margin-right: 10px;}.mgn-right-20 {margin-right: 20px;}.mgn-right-30 {margin-right: 30px;}.mgn-right-40 {margin-right: 40px;}.mgn-right-50 {margin-right: 50px;}.mgn-right-60 {margin-right: 60px;}.mgn-right-70 {margin-right: 70px;}.mgn-right-80 {margin-right: 80px;}.mgn-right-90 {margin-right: 90px;}.mgn-right-100 {margin-right: 100px;}.mgn-left-10 {margin-left: 10px;}.mgn-left-20 {margin-left: 20px;}.mgn-left-30 {margin-left: 30px;}.mgn-left-40 {margin-left: 40px;}.mgn-left-50 {margin-left: 50px;}.mgn-left-60 {margin-left: 60px;}.mgn-left-70 {margin-left: 70px;}.mgn-left-80 {margin-left: 80px;}.mgn-left-90 {margin-left: 90px;}.mgn-left-100 {margin-left: 100px;}.pdg-right-10{padding-right: 10px;}.pdg-right-20{padding-right: 20px;}.pdg-right-30{padding-right: 30px;}.pdg-right-40{padding-right: 40px;}.pdg-right-50{padding-right: 50px;}.pdg-right-60{padding-right: 60px;}.pdg-right-70{padding-right: 70px;}.pdg-right-80{padding-right: 80px;}.pdg-right-90{padding-right: 90px;}.pdg-right-100{padding-right: 100px;}.pdg-left-5{padding-left:5px;}.pdg-right-5{padding-right: 5px;}.mgn-left-5{margin-left:5px}.mgn-right-5{margin-right: 5px}
+
+
+header {
+    background-color: #424448;
+}
+footer {
+    height: 59px;
+    background-color: #424448;
+    margin: 0 auto;
+}
+h1 {
+    display: none;
+    font-weight: lighter;
+    font-size: 34px;
+    color: #987321;
+}
+h2 {
+    font-weight: lighter;
+    font-size: 24px;
+    color: #987321;
+}
+h3 {
+    font-weight: lighter;
+    font-size: 24px;
+    color: #000000;
+}
+h4 {
+    font-weight: bold;
+    font-size: 22px;
+    color: #424448;
+}
+
+h5 {
+    font-weight: normal;
+    font-size: 18px;
+}
+h6 {
+    font-size: 14px;
+}
+p {
+    color: #424448;
+    font-size: 16px;
+    font-weight: normal;
+}
+a {
+    color: #000000;
+}
+.layer {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(168, 168, 168, 0.274);
+    z-index: 50;
+    display: none;
+    transition: 0.3s;
+}
+.menu-escondido a {
+    color: #FFFFFF;
+}
+.bg-cinza-claro {
+    background-color: #E2E2E2;
+}
+.bg-cinza-escuro {
+    background-color: #424448;   
+}
+.margin-top-30 {
+    margin-top: 30px;
+}
+.padding-bottom-20 {
+    padding-bottom: 20px;
+}
+.padding-top-18 {
+    padding-top: 18px;
+}
+.logo_batista {
+    display: none;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.mob-head {
+    height: 69px; 
+    padding: 15px;
+}
+.menu-escondido {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: none;
+    color: white;
+}
+#img-menu-expand {
+    transition: 0.4s;
+    float: right;
+}
+#expandir-mob {
+    background: transparent;
+    border: 0;
+    float: right;
+}
+#expandir-dsk {
+    background: transparent;
+    border: 0;
+    float: right;
+}
+/* DESKTOP ONLY*/
+
+.menu-desk {
+    list-style: none;
+    color: #FFFFFF !important;
+    float: right;
+}
+.menu-desk li {
+    width: 100%;
+    height: 56px;
+    margin: 0;
+    display: inline;
+}
+.botao-menu-desk {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+.botao-menu-desk:hover {
+    color: #b3b2b2;
+}
+/* DESKTOP ONLY*/
+/*botoes que estão dentro do menu escondido*/
+.botao-menu-escondido {
+    color: #FFFFFF !important;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    width: 100%;
+    height: 56px;
+    margin: 0;
+    background-color: transparent;
+}
+.subtitulo {
+    padding-top: 60px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.arrow-down {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.sobre-batista {
+    padding-top: 30px; 
+    padding-bottom: 30px; 
+    font-weight: lighter;
+}
+.destaque-sobre-batista {
+    font-weight: normal;
+}
+
+.foto-batista {
+    margin-top: 20px;
+    position: relative;
+    top: 0px;
+}
+.sobre-profissional {
+    padding-top: 12px;
+}
+.botao-homepage {
+    padding-top: 10px;
+    color: #424448;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    width: 100%;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #7070702a;
+}
+.botao-homepage:hover {
+    color: #424448;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    width: 100%;
+    height: 45px;
+    background-color: #E2E2E2;
+    border: 1px solid #7070702a;
+}
+.botao-enviar {
+    height: 39px;
+    border: 1px solid rgba(19, 165, 0, 0.40);
+}
+.form-group {
+    border-bottom: solid 0.2px #c9c8c8;
+    padding-bottom: 20px;
+    display: block;
+} 
+.b-contato {
+    width: 97%;
+}  
+.form {
+    text-align: left;
+    margin-top: 18px;
+    padding-bottom: 0;
+    padding-left: 0px;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #424448;
+    border: 0;
+    border-bottom: solid 0.2px #c9c8c8;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+}
+input::placeholder {
+    color: #70707077;
+}
+.mensagem-form {
+    height: 221px !important;
+    margin-top: 30px;
+    margin-bottom: 24px;
+    border: 0.2px solid #c9c8c8;
+}
+.pop-up-envio {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 35%;
+    width: 86%;
+    height: 221px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #c9c8c8;
+    margin: 0 auto;
+    padding-top: 82px;
+    z-index: 51;
+}
+.contato {
+    list-style: none;
+    border: 0;
+    padding: 0;
+    font-weight: normal;
+    color: #000000;
+}
+.icone {
+    font-size: 21px;
+    color: #987321;
+    margin-right: 12px;
+    margin-top: 5px;
+}
+.botao-contato {
+    padding-top: 20px;
+    width: 100%;
+}
+.botao-endereco {
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 65px;
+}
+.margin-botao-end {
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+.area-de-atuacao {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.acompanhe {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.sobre-atuacao {
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+.texto-sobre-atuacao {
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #424448;
+}
+.lista-atuacoes {
+    font-size: 14px;
+    font-weight: normal;
+    padding-inline-start: 20px;
+    margin-bottom: 20px;
+}
+.lista-atuacoes li {
+    padding-top: 15px;
+    list-style-image: url(../images/noun_Check_1314945.png);
+}
+.artigo-mini {
+    padding-bottom: 15px;
+}
+.data-artigo-gray {
+    display: flex; 
+    list-style: none; 
+    color: #BCBCBC; 
+    padding-left: 0;
+}
+.data-artigo-gray li {
+    padding-right: 10px;
+}
+.data-artigo-black {
+    color: #000000;
+}
+.tag-artigo {
+    font-size: 12px;
+    color: #BCBCBC;
+}
+.botao-mais-artigos {
+    padding-top: 10px;
+    color: #707070;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+#mais-artigos {
+    display: none;
+}
+.botao-voltar {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #707070;
+}
+.botao-ler-artigo-gold {
+    color: #987321;
+    border: 1px solid #987321;
+}
+.icon-home {
+    color: #987321;
+    font-size: 42px;
+    padding: 30px;
+    padding-top: 10px;
+}
+.map-marker {
+    display: block;
+    width: 75%; 
+    float: left;
+}
+.copyright-batista {
+    font-size: 12px;
+    font-weight: normal;
+    color: #BCBCBC;
+    margin-top: 20px;
+}
+.logo-doma {
+   padding-top: 15px; 
+}
+@media screen and (max-width: 768px) {
+    .form-group {
+        border-bottom: solid 0.2px #c9c8c8;
+        padding-bottom: 20px;
+        display: none;
+    } 
+    .botao-contato {
+       padding-top: 20px;
+    }
+    .b-contato {
+        width: 85%;
+    }
+}
