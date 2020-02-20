@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'brandon_grotesquebold';
+    color: #ffffff;
+}
+.force-center {
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 auto;
+}
+header .container-fluid {
+    background-color: #ffffff;
+}
+header .container {
+    padding: 25px;
+}
+
+/*MAIN*/
+#main .container-fluid {
+    background-image: url('../images/psicologia/background.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: center;
+    background-color: #5385C9;
+    height: auto ;
+}
+.head-psicologia {
+    background-image: url('../images/arco.png');
+    background-position-x: center;
+    background-position-y: 148%;
+    background-repeat: no-repeat;
+    padding-top: 45px;
+    background-size: 95%;
+}
+.img-wrapper {
+    font-family: 'brandon_grotesqueblack';
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-bottom: 30px;
+}
+.img-wrapper {
+    margin-top: 20px;
+}
+.img-wrapper p {
+    padding-top: 10px;
+}
+.img-wrapper img {
+    width: 70%;
+}
+.mec-5-img {
+    padding-top: 8%;
+}
+.sobre-wrapper {
+    font-family: 'brandon_grotesqueregular';
+    text-align: center;
+}
+.sobre-curso {
+    font-size: 20px;
+    margin-top: 30px;
+}
+h4 {
+    font-family: 'brandon_grotesquebold';
+    letter-spacing: 2px;
+    margin: 30px;
+}
+.pre-cadastro {
+    padding-top: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: 'Gotham';
+    color: #eef0f2;
+}
+
+.cadastro-wrapper {
+    background-color: #ffffff;
+    border-radius: 15px;
+
+    margin-bottom: 100px;
+}
+.titulo {
+    color: #144e9c;
+    text-align: center;
+    padding-left: 17%;
+}
+.titulo h2 {
+    font-family: 'brandon_grotesquebold';
+    font-size: 45px;
+}
+.titulo p {
+    font-family: 'brandon_grotesqueregular';
+    font-size: 18px;
+}
+.conceito-4-mec {
+    position: relative;
+    top: -30px;
+
+    line-height: 0px;
+}
+.conceito-4-mec img {
+    float: right;
+}
+
+.info-cadastro-wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.list-icon {
+    padding-right: 0px; 
+    font-size: 65px;
+    color: #6ba3ec;
+}
+.list-icon span {
+    display: block;
+    float: left;
+}
+.font-size-special {
+    font-size: 54px !important;
+}
+.list-info {
+    border-bottom: 2px solid #c7dcf8 !important;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+.list-info:last-child {
+    border-bottom: 0px;
+}
+.list-info p {
+    margin-top: 0px;
+    color: #555555;
+}
+.list-info h5 {
+    font-family: 'brandon_grotesquebold_italic';
+    margin-top: 0px;
+    color: #6ba3ec;
+    margin-bottom: 0px;
+}
+.info-cadastro-wrapper .row {
+    margin-bottom: 20px;
+}
+.data {
+    border-right: 2px solid #6ba3ec;
+}
+
+.contato h5 {
+    color: #124e9e;
+    font-size: 22px;
+    text-align: center;
+}
+.btn-preencher {
+    border: 1px solid #e6e6e6;
+    border-radius: 15px;
+    width: 100%;
+ 
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+
+    font-size: 14px;
+    text-align: center;
+    font-family: 'brandon_grotesquebold';
+    color: #000000;
+
+    margin-bottom: 10px;
+}
+.btn-preencher span{
+    float: left;
+    font-size: 22px;
+}
+.contato p {
+    font-family: 'brandon_grotesqueregular';
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+}
+.linha {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 2px;
+    background-color: #144e9c;
+}
+.form-group {
+    color: #000000;
+}
+.form-group div {
+    padding-left: 0;
+    padding-right: 0;
+}
+.form-group input {
+    font-family: 'brandon_grotesqueregular';
+    width: 100%;
+
+    text-transform: uppercase;
+    color: #6ba3ec;
+    border: 2px solid #6ba3ec;
+    border-radius: 8px;
+
+    padding: 4px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.form-group input::placeholder {
+    font-family: 'brandon_grotesqueregular';
+    color: #6ba3ec;
+}
+.form-group select {
+    font-family: 'brandon_grotesqueregular';
+    width: 100%;
+
+    text-transform: uppercase;
+    color: #6ba3ec;
+    border: 2px solid #6ba3ec;
+    border-radius: 8px;
+
+    padding: 4px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.form-group .btn-enviar {
+    border-color: #124e9e;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: #124e9e;
+    color: #ffffff;
+}
+/*END_MAIN*/
+
+footer .container-fluid {
+    background-color: #ffffff;
+}
+footer {
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer h5 {
+    color: #144e9c;
+    margin-bottom: 0px;
+}
+footer i {
+    color: #6ba3ec;
+    padding-right: 10px;
+    font-size: 15px;
+}
+footer ul {
+    list-style: none;
+    padding-left: 0px;
+}
+footer ul li {
+    color: #555555;
+}
+footer p {
+    color: #555555;
+}
+footer .linha {
+    background-color: #144e9c;
+}
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+.adress li {
+    display: inline;
+}
+
+
+/*add*/
+.mec-5-img {
+    padding-top: 8%;
+}
+.mec-5-img img {
+    width: 100%;
+}
+/*add*/
+.mec-5-img span {
+    font-size: 150px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 100%;
+    color: #2466BD;
+}
+/*add*/
+.box-round {
+    margin-top: 20px;
+}
+/*add*/
+.box-round span {
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-size: 90px;
+    color: #2466BD;
+    padding: 19px;
+    margin-bottom: 20px;
+}
+.professores span {
+    font-size: 150px !important;
+}
+/*add*/
+.box-round p {
+    margin-top: 30px;
+}
+/*add*/
+.conceito-4-mec {
+    font-size: 145px;
+}
+
+@media screen and (max-width: 768px) {
+    .conceito-4-mec {
+        text-align: center;
+        height: auto;
+        margin-top: 15px;
+        position: relative;
+        top: -10px;
+        line-height: 0px;
+    }
+    .mec-5-img img {
+        width: 45%;
+    }
+    .mec-5-img img {
+        width: 45%;
+    }
+    .head-psicologia {
+        background-image: none;
+    }
+    #main .container-fluid {
+        background-image: url() !important;
+    }
+    .img-wrapper p {
+        font-size: 13px;
+        text-align: center;
+    }
+    .head-enfermagem {
+        background-image: none;
+    }
+    .mec-5-img {
+        margin-bottom: 30px;
+    }
+    .sobre-wrapper h4 {
+        line-height: 25px;
+    }
+    .pre-cadastro {
+        margin-bottom: 10px;
+    }
+    .titulo {
+        padding-left: 15px;
+        text-align: center;
+    }
+    .titulo h2 {
+        font-size: 30px;
+    }
+    .titulo p {
+        font-size: 16px;
+    }
+    .cadastro-wrapper {
+        border: 0;
+    }
+    .font-size-special span{
+        font-size: 46px !important;
+    }
+    .list-icon span {
+        font-size: 55px; 
+    }
+    /*add*/
+    .list-info {
+        width: 70%;
+        padding-right: 0;
+        font-size: 16px;
+    }
+    .list-info h5 {
+        font-size: 17px;
+    }
+    .info-cadastro-wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .data {
+        border-right: 0px;
+    }
+    /*add*/
+    .btn-preencher {
+        width: 100%;
+        margin-bottom: 10px;
+
+        font-size: 14px;
+    }
+    .form-group input {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .form-group select {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    footer h5 {
+        margin-top: 25px;
+    }
+    .pdg-sides-0-mob {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
