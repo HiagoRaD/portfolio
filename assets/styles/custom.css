@@ -133,10 +133,10 @@ h1 .dev-logo {
 }
 
 /*PAGES*/
-.home     { display: block; }
-.about-me { display: none; }
-.projetos { display: none; }
-.contato  { display: none; }
+.home     {display: none;}
+.about-me {display: none;}
+.projetos {display: block;}
+.contato  {display: none;}
 
 /*END_PAGES*/
 
