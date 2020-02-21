@@ -22,70 +22,72 @@
     <link href="assets/styles/custom.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="row top-menubar-mob hidden-lg hidden-md">
-        <div class="col-sm-3 col-xs-3">
-            <i class="icon-logo fas fa-code animated fadeIn"></i>
+    <div class="teste">
+        <div class="top-menubar-mob hidden-lg hidden-md">
+            <div class="col-sm-3 col-xs-3">
+                <i class="icon-logo fas fa-code animated fadeIn"></i>
+            </div>
+            <div class="col-sm-6 col-xs-6" style="padding-left: 0px">
+                <h3 class="sub-logo animated fadeInLeft" style="animation-delay: 100ms;">.DEv</h3>
+            </div>
+            <div class="col-sm-3 col-xs-3 menuicon-div">
+                <i id="open-mob-menu" class="icon-logo fas fa-bars animated fadeIn"></i>
+                <i id="close-mob-menu" class="icon-logo fas fa-times"></i>
+            </div>
         </div>
-        <div class="col-sm-6 col-xs-6" style="padding-left: 0px">
-            <h3 class="sub-logo animated fadeInLeft" style="animation-delay: 100ms;">.DEv</h3>
-        </div>
-        <div class="col-sm-3 col-xs-3 menuicon-div">
-            <i id="open-mob-menu" class="icon-logo fas fa-bars animated fadeIn"></i>
-            <i id="close-mob-menu" class="icon-logo fas fa-times"></i>
-        </div>
+
+        <header id="top" class="head-wrapper">
+            <div class="container-fluid">
+                <div class="col-lg-12 text-center logo-div">
+                    <a class="a-neutro" id="gt_home"><i class="icon-logo fas fa-code"></i></a>
+                    <h3 class="sub-logo">.DEv</h3>
+                </div>
+
+                <div class="col-lg-12 mainicons-wrapper">
+                    <table class="icons-table">
+                        <tr>
+                            <td>
+                                <a class="a-neutro" href=""><i class="icon-row icon-bar fas fa-home active"></i></a>
+                            </td>
+                            <td class="icon-row info-tab tab-goto" id="goto_home" style="display: none;">home</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a class="a-neutro" href=""><i class="icon-bar far fa-user-circle"></i></a>
+                            </td>
+                            <td class="icon-row info-tab tab-goto" id="goto_about-me" style="display: none;">sobre mim</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="icon-bar far fa-file-code"></i>
+                            </td>
+                            <td class="icon-row info-tab tab-goto" id="goto_projetos" style="display: none;">projetos</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="icon-bar fab fa-github"></i>
+                            </td>
+                            <td class="icon-row info-tab" style="display: none;">
+                            <a class="a-neutro" href="https://github.com/HiagoRaD" target="_blank"></a>repositório</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="icon-bar far fa-envelope"></i>
+                            </td>
+                            <td class="icon-row info-tab tab-goto" id="goto_contato" style="display: none;">contato</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <i class="icon-bar fab fa-linkedin-in"></i>
+                            </td>
+                            <td class="icon-row info-tab" style="display: none;">
+                            <a class="a-neutro" href="https://www.linkedin.com/in/hiago-diniz-a45761182/" target="_blank">linkedin</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </header>
     </div>
-
-    <header id="top" class="head-wrapper">
-        <div class="container-fluid">
-            <div class="col-lg-12 text-center logo-div">
-                <a class="a-neutro" id="gt_home"><i class="icon-logo fas fa-code"></i></a>
-                <h3 class="sub-logo">.DEv</h3>
-            </div>
-
-            <div class="col-lg-12 mainicons-wrapper">
-                <table class="icons-table">
-                    <tr>
-                        <td>
-                            <a class="a-neutro" href=""><i class="icon-row icon-bar fas fa-home active"></i></a>
-                        </td>
-                        <td class="icon-row info-tab tab-goto" id="goto_home" style="display: none;">home</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a class="a-neutro" href=""><i class="icon-bar far fa-user-circle"></i></a>
-                        </td>
-                        <td class="icon-row info-tab tab-goto" id="goto_about-me" style="display: none;">sobre mim</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <i class="icon-bar far fa-file-code"></i>
-                        </td>
-                        <td class="icon-row info-tab tab-goto" id="goto_projetos" style="display: none;">projetos</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <i class="icon-bar fab fa-github"></i>
-                        </td>
-                        <td class="icon-row info-tab" style="display: none;">
-                        <a class="a-neutro" href="https://github.com/HiagoRaD" target="_blank"></a>repositório</a></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <i class="icon-bar far fa-envelope"></i>
-                        </td>
-                        <td class="icon-row info-tab tab-goto" id="goto_contato" style="display: none;">contato</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <i class="icon-bar fab fa-linkedin-in"></i>
-                        </td>
-                        <td class="icon-row info-tab" style="display: none;">
-                        <a class="a-neutro" href="https://www.linkedin.com/in/hiago-diniz-a45761182/" target="_blank">linkedin</a></td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </header>
     
     <main class="web-content-wrapper">
         <div class="home">
@@ -156,70 +158,110 @@
                                 <h2 class="projects-title">.WEB    </h2>
                             </div>
                             <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 line" style="margin-top: 0px;"></div>
+                            <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 mgn-btm-45">
+                                <p>Os designs dos projetos <strong>web</strong> foram desenvolvidos na <strong>
+                                    dOma Design</strong>, parte desenvolvida por mim foi somente a programação.
+                                </p>
+                            </div>
                         </div>
                         
                         <!--projects-->
                         <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 project-row">
+                            <div>
+                                <a href="entre_ervas/index.php" class="a-neutro" target="_blank">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project" hover-toggle="#entre_ervas-hover" id="entre_ervas">
+                                    <div class="hover-wrapper fadeIn hidden" id="entre_ervas-hover">
+                                        <div class="icon-wrapper force-center">
+                                            <i class="fas fa-search"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>
+                            </div>
                             
-                            <a href="batista/home.html" class="a-neutro" target="_blank">
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project" hover-toggle="">
-                                <div class="hover-wrapper fadeIn" id="">
-                                    <div class="icon-wrapper force-center">
-                                        <i class="fas fa-search"></i>
+                            <div>
+                                <a href="aragon/index.php" class="a-neutro" target="_blank">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project" hover-toggle="#aragon-hover" id="aragon">
+                                    <div class="hover-wrapper fadeIn hidden" id="aragon-hover">
+                                        <div class="icon-wrapper force-center">
+                                            <i class="fas fa-search"></i>
+                                        </div>
                                     </div>
                                 </div>
+                                </a>
                             </div>
-                            </a>
 
-                            <a href="herrero/enfermagem/index.html" class="a-neutro" target="_blank">
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project" hover-toggle="">
-                                <div class="hover-wrapper fadeIn" id="">
-                                    <div class="icon-wrapper force-center">
-                                        <i class="fas fa-search"></i>
+                            <div>
+                                <a href="palladium/hotsite_natal/index.html" class="a-neutro" target="_blank">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project" hover-toggle="#palladium_natal-hover" id="palladium_natal">
+                                    <div class="hover-wrapper fadeIn hidden" id="palladium_natal-hover">
+                                        <div class="icon-wrapper force-center">
+                                            <i class="fas fa-search"></i>
+                                        </div>
                                     </div>
                                 </div>
+                                </a>
                             </div>
-                            </a>
 
-                            <a href="herrero/odontologia/index.html" class="a-neutro" target="_blank">
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project" hover-toggle="">
-                                <div class="hover-wrapper fadeIn" id="">
-                                    <div class="icon-wrapper force-center">
-                                        <i class="fas fa-search"></i>
+                            <div>
+                                <a href="herrero/enfermagem/index.html" class="a-neutro" target="_blank">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project" hover-toggle="#enfermagem-hover" id="enfermagem">
+                                    <div class="hover-wrapper fadeIn hidden" id="enfermagem-hover">
+                                        <div class="icon-wrapper force-center">
+                                            <i class="fas fa-search"></i>
+                                        </div>
                                     </div>
                                 </div>
+                                </a>
                             </div>
-                            </a>
 
-                            <a href="herrero/psicologia/index.html" class="a-neutro" target="_blank">
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project" hover-toggle="">
-                                <div class="hover-wrapper fadeIn" id="">
-                                    <div class="icon-wrapper force-center">
-                                        <i class="fas fa-search"></i>
+                            <div>
+                                <a href="herrero/odontologia/index.html" class="a-neutro" target="_blank">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project" hover-toggle="#odontologia-hover" id="odontologia">
+                                    <div class="hover-wrapper fadeIn hidden" id="odontologia-hover">
+                                        <div class="icon-wrapper force-center">
+                                            <i class="fas fa-search"></i>
+                                        </div>
                                     </div>
                                 </div>
+                                </a>
                             </div>
-                            </a>
 
-                            <a href="palladium/hotsite_natal/index.html" class="a-neutro" target="_blank">
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project" hover-toggle="">
-                                <div class="hover-wrapper fadeIn" id="">
-                                    <div class="icon-wrapper force-center">
-                                        <i class="fas fa-search"></i>
+                            <div>
+                                <a href="herrero/psicologia/index.html" class="a-neutro" target="_blank">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project" hover-toggle="#psicologia-hover" id="psicologia">
+                                    <div class="hover-wrapper fadeIn hidden" id="psicologia-hover">
+                                        <div class="icon-wrapper force-center">
+                                            <i class="fas fa-search"></i>
+                                        </div>
                                     </div>
                                 </div>
+                                </a>
                             </div>
-                            </a>
 
-                            <a href="palladium/imax/index.html" class="a-neutro" target="_blank">
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project" hover-toggle="">
-                                <div class="hover-wrapper fadeIn" id="">
-                                    <div class="icon-wrapper force-center">
-                                        <i class="fas fa-search"></i>
+                            <div>
+                                <a href="palladium/imax/index.html" class="a-neutro" target="_blank">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project" hover-toggle="#palladium_imax-hover" id="palladium_imax">
+                                    <div class="hover-wrapper fadeIn hidden" id="palladium_imax-hover">
+                                        <div class="icon-wrapper force-center">
+                                            <i class="fas fa-search"></i>
+                                        </div>
                                     </div>
                                 </div>
+                                </a>
                             </div>
-                            </a>
+
+                            <div>
+                                <a href="batista/home.html" class="a-neutro" target="_blank">
+                                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project" hover-toggle="#batista-hover" id="batista">
+                                        <div class="hover-wrapper fadeIn hidden" id="batista-hover">
+                                            <div class="icon-wrapper force-center">
+                                                <i class="fas fa-search"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
 
                         <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
@@ -238,10 +280,6 @@
                             <h1>Contato</h1>
                         </div>
 
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <p>Gostou do meu trabalho? Entre em contato:</p>
-                        </div>
-
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
                             <div class="col-lg-10 line"></div>
                         </div>
@@ -254,7 +292,7 @@
                                 </li>
                                 <li>
                                     <a class="a-neutro" href="tel:41992197170" target="_blank">
-                                    <i class="icon fab fa-whatsapp"></i>(41) 99219-7170</a>
+                                    <i class="icon fab fa-whatsapp"></i>(41)99219-7170</a>
                                 </li>
                                 <li>
                                     <a class="a-neutro" href="https://www.linkedin.com/in/hiago-diniz-a45761182/" target="_blank">

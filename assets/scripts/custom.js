@@ -5,7 +5,7 @@ $('i').addClass(_PALHETA);
 $(document).ready(function () {
     // // Side menu animations - DESKTOP
     $('.head-wrapper').mouseenter(function () {
-        if ($(window).width() > 960) {
+        if ($(window).width() > 992) {
             $(this).css('width', '15%');
             $('.info-tab').show();
             $('.info-tab').addClass('animated fadeIn delay-1');
@@ -17,7 +17,7 @@ $(document).ready(function () {
             $('.icon-bar').css('color', '#ff5454');
         }
     }).mouseleave(function () {
-        if ($(window).width() > 960) {
+        if ($(window).width() > 992) {
             $(this).css('width', '70px');
 
             $('.info-tab').hide();
@@ -44,7 +44,7 @@ $(document).ready(function () {
         
         $('.' + next).show();
 
-        if ($(window).width() < 960) {
+        if ($(window).width() < 992) {
             $('.' + next).addClass('animated fadeInRight');
         }
         else {
@@ -65,7 +65,7 @@ $(document).ready(function () {
         $('.' + current).hide();
 
 
-        if ($(window).width() < 960) {
+        if ($(window).width() < 992) {
             $('.' + next).addClass('animated fadeInRight');
             $('#close-mob-menu').click();
         }
@@ -94,10 +94,38 @@ $(document).ready(function () {
 
     // projects animations
     $('.project').mouseenter(function () {
-        $($(this).attr('hover-toggle')).toggleClass('hidden');
-        $($(this).attr('hover-toggle')).removeClass('animated fadeOut');
-        $($(this).attr('hover-toggle')).addClass('animated fadeIn');        
+        if ($(window).width() > 960) { 
+            console.log('sim')
+            $($(this).attr('hover-toggle')).toggleClass('hidden');
+            $($(this).attr('hover-toggle')).removeClass('animated fadeOut');
+            $($(this).attr('hover-toggle')).addClass('animated fadeIn');        
+        }
+        else {
+            console.log('nao');
+        }
     }).mouseleave(function () {   
-        $($(this).attr('hover-toggle')).toggleClass('hidden');        
+        if ($(window).width() > 960) { 
+            console.log('sim')
+            $($(this).attr('hover-toggle')).toggleClass('hidden');        
+        }
+        else {
+            console.log('nao');
+        }
+    });
+
+
+    if ($(window).width() <= 992) {
+        $('.project-row').attr('id', 'slick-on-mobile');
+    }
+
+    //project slick on mobile 
+    $('#slick-on-mobile').slick({
+        infinetescroll: true,
+        arrows: false,
+        dots: true
+    });
+
+    $('.slick-dots button').each(function() {
+        $(this).text('');
     });
 });

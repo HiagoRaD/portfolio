@@ -56,7 +56,7 @@ strong {
 p {
     font-family: 'PT Sans', sans-serif;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 600;
     letter-spacing: 7px;
 }
@@ -133,12 +133,13 @@ h1 .dev-logo {
 }
 
 /*PAGES*/
-.home     {display: none;}
+.home     {display: block;}
 .about-me {display: none;}
-.projetos {display: block;}
+.projetos {display: none;}
 .contato  {display: none;}
 
 /*END_PAGES*/
+
 
 
 /*MENUBAR*/
@@ -256,11 +257,12 @@ h1 .dev-logo {
 }
 .project {
     cursor: pointer;
-    background-color: #ff5454;
+    background-size: cover;
     height: 300px;
     display: table;
 }
 .hover-wrapper { 
+    background-color: #ff54547c;
     width: 100%;
     height: 100%;
     display: table-cell;
@@ -268,8 +270,6 @@ h1 .dev-logo {
     transition: 1s; 
 }
 .icon-wrapper {
-    background-color: #ff54547c;
-    border-radius: 50%;
     width: fit-content;
     height: fit-content;
 }
@@ -307,12 +307,14 @@ h1 .dev-logo {
     color: #ffffff;
 }
 
-/* #project-1 { background-image: url('../images/teste.png');}
-#project-2 { background-image: url('../images/teste.png');}
-#project-3 { background-image: url('../images/teste.png');}
-#project-4 { background-image: url('../images/teste.png');}
-#project-5 { background-image: url('../images/teste.png');}
-#project-6 { background-image: url('../images/teste.png');} */
+#batista         { background-image: url('../images/batista.png');}
+#enfermagem      { background-image: url('../images/enfermagem_cut.png');}
+#odontologia     { background-image: url('../images/odontologia_cut.png');}
+#psicologia      { background-image: url('../images/psicologia_cut.png');}
+#palladium_natal { background-image: url('../images/palladium_natal_cut.png');}
+#palladium_imax  { background-image: url('../images/palladium_imax.png');} 
+#entre_ervas     { background-image: url('../images/entre_ervas_cut.png');} 
+#aragon          { background-image: url('../images/aragon_cut.png');} 
 
 
 
@@ -345,6 +347,10 @@ h1 .dev-logo {
         line-height: 70px;
         font-size: 65px;
     }
+    p {
+        font-size: 19px;
+        letter-spacing: 5px;;
+    }
     
     .pdg-sides-0-divs {
         padding: 0px 25px;
@@ -362,6 +368,10 @@ h1 .dev-logo {
     }
 
     .top-menubar-mob {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
         background-color: #1a1a1a;
         height: 65px; 
     }
@@ -393,5 +403,43 @@ h1 .dev-logo {
     }
     .about-me h1 {
         margin-bottom: 20px;
+    }
+
+    .home, .about-me, .projetos, .contato {
+        margin-top: 65px;
+    }
+
+    .project-row {
+        margin-bottom: 10px !important;
+    }
+
+    .slick-dots {
+        position: absolute;
+        top: 0px;
+        margin-top: -30px;
+        width: 100%;
+        padding: 0px 15px;
+        list-style: none;
+    }
+    .slick-dots li {
+        display: inline-block;
+        width: 12.5%;
+        text-align: center;
+    }
+    .slick-dots button {
+        content: none;
+        text-indent: -99999;
+        height: 16px;
+        width: 16px;
+        border-radius: 50%;
+        box-shadow: none;
+        background-color: #a5a5a5;
+        color: #a5a5a5;
+        border: 0;
+    }
+    .slick-dots li.slick-active button {
+        background-color: #ff5454;    
+        color: #ff5454;
+        transition: 0.4s;
     }
 }
