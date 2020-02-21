@@ -250,10 +250,7 @@ h1 .dev-logo {
     margin-left: 0px;
 }
 .project-row {
-    margin-bottom: 100px;
-}
-.project-row {
-    margin-bottom: 140px!important;
+    margin-bottom: 0px;
 }
 .project {
     cursor: pointer;
