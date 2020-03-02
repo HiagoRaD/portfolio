@@ -1,0 +1,584 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gloriola Std';
+}
+p {
+    font-size: 21px;
+    line-height: 30px;
+}
+.pdg-btm-30 {
+    padding-bottom: 30px;
+}
+.pdg-sides-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.mgn-top-50 {
+    margin-top: 50px;
+}
+.mgn-top-30 {
+    margin-top: 30px;
+}
+.mgn-btm-50 {
+    margin-bottom: 50px;
+}
+.bg-dark {
+    background-color: #292929;
+} 
+.bg-purple {
+    background-color: #482E59;
+}
+.force-center {
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 auto;
+}
+.ajuste-p-mobile p {
+    margin-bottom: 0px;
+}
+.ajuste-p-mobile p:first-child {
+    margin-top: inherit;
+}
+.ajuste-p-mobile p:last-child {
+    margin-bottom: initial;
+}
+
+.titulo-wrapper {
+    text-align: center;
+}
+.titulo-principal {
+    padding-right: 80px;
+    text-align: right;
+    font-weight: 300;
+    font-style: italic;
+    color: #482E59;
+    font-size: 57px;
+}
+.titulo-strong {
+    padding-left: 80px;
+    padding-right: 0px !important;
+    text-align: left;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 130px;
+    margin: 0;
+    margin-top: -55px;
+}
+
+.info-topo-materia {
+    color: #707070;
+}
+.info-topo-wrapper {
+    padding-right: 0px;
+}
+.img-topo-wrapper {
+    padding-left: 0px;
+}
+
+.titulo-2 {
+    font-family: 'Gloriola Std Display';
+    color: #C4BADC;
+    font-weight: 300;
+    font-size: 60px;
+}
+.titulo-2 strong {
+    font-family: 'Gloriola Std';
+    font-weight: 300;
+}
+
+#home-surlyn .titulo-wrapper {
+    position: relative;
+    z-index: 10;
+}
+#home-surlyn .info-topo-materia {
+    margin-top: 100px;
+}
+#home-surlyn .titulo-principal {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 78px;
+}
+#home-surlyn a {
+    font-family: 'gloriola_stdregular';
+    font-size: 21px;
+    line-height: 30px;
+}
+#home-surlyn a:hover {
+    color: inherit;
+}
+#home-surlyn .info-surlyn-wrapper {
+    padding-top: 100px;
+}
+#home-surlyn .titulo-strong {
+    padding-right: 0px !important;
+    text-align: right;
+    font-size: 162px;
+    margin: 0;
+    margin-top: -55px;
+}
+#home-surlyn .img-surlyn {
+    margin-top: -60px;
+}
+
+
+.p-white {
+    color: #ffffff;
+}
+.somos-premium .p-white {
+    margin-top: 20px;
+}
+.img-premium-wrapper {
+    margin-right: -30px;
+}
+
+.somos-premium .premium-purple-wrapper {
+    position: relative;
+    z-index: 2;
+    background-color: #482E59;
+    width: 93%;
+    float: right;
+    margin-top: 30px;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.p-light {
+    font-weight: 400;
+    font-style: italic;
+}
+.somos-premium .p-light {
+    margin-top: 30px;
+    color: #C4BADC;
+}
+.img-diamantes-wrapper {
+    bottom: -53px;
+    position: absolute;
+    right: -60px;
+}
+
+.barra-branca {
+    background-color: #ffffff;
+    width: 100%;
+    height: 50px;
+    margin-top: -50px;
+}
+
+.somos-premium-2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.somos-premium-2 .p-light{
+    color: #292929;
+    margin-top: 5px;
+}
+.somos-premium-2 .p-light-wrapper {
+    background-color: #C4BADC;
+    padding: 30px;
+}
+
+.somos-premium-3 .linha-dark {
+    background-color: #292929;
+    width: 100%;
+    height: 20px;
+    margin-top: -20px;
+}
+.somos-premium-3 .container-fluid {
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.somos-premium-3 .p-light {
+    margin-top: 20px;
+    color: #ffffff;
+}
+.row-diamantes {
+    width: 100%;
+}
+
+.video-titulo-wrapper {
+    text-transform: uppercase;
+    background-color: #482E59;
+    color: #ffffff;
+
+    position: relative;
+    top: -30px;
+
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 0 auto;
+
+    width: 100%;
+}
+.video {
+    margin-top: -20px;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.back-img-wrapper {
+    text-align: center;
+    margin-top: -100px;
+}
+.back-img {
+    position: relative;
+    z-index: 2;
+    width: 80%;
+}
+
+.do-surlyn-ao .premium-purple-wrapper {
+    background-color: #482E59;
+    color: #ffffff;
+    margin-top: -20px;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+.do-surlyn-ao .p-white {
+    margin-top: 70px !important;
+}
+.do-surlyn-ao .ajuste-p-mobile p:first-child{
+
+}
+.do-surlyn-ao .container-fluid {
+    padding-bottom: 50px;
+}
+
+.linha-white-quiz {
+    background-color: #292929;
+    width: 100%;
+    height: 25px;
+}
+.tampas-titulo-wrapper {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #482E59;
+    padding: 20px;
+    padding-bottom: 1px;
+}
+.quiz {
+    padding-bottom: 40px;
+}
+.quiz .p-white {
+    font-size: 28px;
+}
+.mult-diamantes {
+    margin-top: 40px;
+}
+.tres-diamantes {
+    margin-top: 200px;
+}
+.card-wrapper {
+    padding: 0px 4px;
+}
+.card-quiz {
+    background-color: #E8E8E8;
+    text-align: center;
+    height: 340px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.slick-quiz {
+    height: 360px;
+}
+.btn-quiz {
+    border: none;
+    background-color: transparent;
+    margin-top: 30px;
+}
+.quiz .icone {
+    position: absolute;
+    top: -25px;
+    left: -25px;
+}
+.icon-surlyn-arrow-right {
+    position: absolute;
+    font-size: 36px;
+    left: -28px;
+    top: 145px;    
+}
+.icon-surlyn-arrow-left {
+    position: absolute;
+    font-size: 36px;
+    right: -28px;
+    z-index: 10;
+    top: 145px;
+}
+.tampa-img {
+    margin: 0 auto;
+}
+
+.errou {
+    background-color: #AD2B6C;
+    height: auto;
+}
+.acertou {
+    background-color: #238975;
+    height: auto;
+}
+.direita {
+    display: block !important;
+    top: 245px;
+    right: -50px;    
+}
+.esquerda {
+    display: block !important;
+    top: 245px;
+}
+.resposta {
+    width: fit-content;
+    text-align: left;
+    display: none;
+    padding-left: 20px;
+    z-index: 10;
+    position: absolute;
+}
+.resposta p {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 20px;
+
+    margin-top: 5px;
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+.reciclaveis .container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+.fim-surlyn .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.titulo-eco {
+    text-align: center;
+    font-family: 'Gloriola Std';
+    font-weight: 100;
+    font-size: 69px;
+    color: #482E59;
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.titulo-eco strong{
+    font-weight: 400;
+}
+.infinito-div {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+}
+.img-box {
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10px;
+    display: block;
+    position: absolute;
+}
+
+.pedra    {top: 10px; left: 360px;     }
+.ceu      {top: -39px; right: 355px;   }
+.pessoa   {bottom: 70px; right: 175px; }
+.caminhao {left: 235px;bottom: 100px;  }
+.folha    {bottom: 120px; right: 420px;}
+
+.card-infinito {
+    display: none;
+    padding: 20px;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    color: transparent;
+    background-color: #404040;
+    color: #ffffff;
+}
+.active {
+    display: block;
+}
+.card-infinito p {
+    font-size: 18px;
+}
+.card-infinito h5 {
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+#content-pedra    {top: -150px;left: 145px;  }
+#content-ceu      {top: -150px;left: 465px;  }
+#content-pessoa   {top: -80px;right: 90px;   }
+#content-caminhao {bottom: 0px;left: 40px;   } 
+#content-folha    {bottom: -10px;left: 370px;}
+
+.fim-surlyn .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.fim-surlyn .p-white {
+    margin-bottom: 35px;
+}
+
+/* MD */
+@media (max-width: 1200px) {
+    .pedra    {top: -5px;left: 241px;    }
+    .ceu      {top: -50px;right: 246px;  }
+    .pessoa   {bottom: 50px;right: 55px  }
+    .caminhao {left: 130px;bottom: 93px; }
+    .folha    {bottom: 90px;right: 306px;}
+
+    #content-pedra    {top: -150px; left: 40px;   }
+    #content-ceu      {top: -150px; left: 364px;  }
+    #content-pessoa   {top: -80px; right: -9px;   }
+    #content-caminhao {bottom: 0px; left: -46px;  } 
+    #content-folha    {bottom: -10px; left: 267px;}
+}
+
+/* SM e XS */
+@media screen and (max-width: 992px) {
+    p {
+        font-size: 20px;
+    }
+    .ajuste-p-mobile p {
+        margin-bottom: initial;
+    }
+    .ajuste-p-mobile p:first-child {
+        margin-top: inherit;
+    }
+    .ajuste-p-mobile p:last-child {
+        margin-bottom: initial;
+    }    
+    .titulo-principal {
+        padding-right: 2px;
+        font-size: 48px;
+    }
+    .titulo-strong {
+        padding-left: 2px;
+        font-size: 99px;
+    }    
+    .info-topo-materia {
+        padding-bottom: 30px;
+    }
+
+    .somos-premium .text-right {
+        text-align: left!important;
+    }
+    .img-diamantes-wrapper {
+        position: absolute;
+        top: 50px;
+        right: 10px;
+    }
+
+    .somos-premium-2 .p-light-wrapper {
+        width: 110%;
+    }
+    .somos-premium-2 .p-light-wrapper {
+        padding-left: 15px !important;
+    }
+
+    .somos-premium-3 .container-fluid {
+        padding-top: 30px;
+        padding-bottom: 70px;
+    }
+    .somos-premium-3 .linha-dark {
+        height: 70px;
+        margin-top: -121px;
+    }
+    .row-diamantes {
+        margin-bottom: 15px;
+        width: 75%;
+    }
+
+    .video-reciclagem .col-principal {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .video {
+        padding: 15px;
+        padding-top: 25px;
+    }
+    .back-img-wrapper {
+        margin-top: 10px;
+    }
+    .back-img {
+        width: 100%;
+    }
+    .do-surlyn-ao .text-right {
+        text-align: left;
+    }
+    .do-surlyn-ao .p-white {
+        margin-top: 20px !important;
+    }
+    .do-surlyn-ao .premium-purple-wrapper {
+        margin-top: 60px;
+        padding: 30px;
+        padding-bottom: 50px;
+        width: 110%;
+    }
+
+    .do-surlyn-ao .container-fluid {
+        padding-bottom: 65px;
+    }
+
+    .tres-diamantes {
+        margin-top: 40px;
+    }
+    .direita {
+       right: 72px;
+    }
+
+    .reciclaveis .img-div {
+        margin-top: 40px;
+    }
+
+    .titulo-eco {
+        text-align: left;
+        font-size: 60px;
+    }
+
+    .card-infinito {
+        display: block;
+        padding: 20px;
+        position: initial;
+        width: 100%;
+        height: fit-content;
+        background-color: #404040;
+        color: #ffffff;
+    }
+    .active {
+        display: block;
+    }
+    .card-infinito p {
+        font-size: 18px;
+    }
+    .card-infinito h5 {
+        font-weight: bold;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+
+    .row-card {
+        margin-top: 30px;
+    }
+    .somos-eco .ajuste-p-mobile p {
+        margin-top: 20px;
+    }
+    .somos-eco .ajuste-p-mobile p:last-child {
+        margin-bottom: 20px;
+    }
+
+    .fim-surlyn .text-center {
+        text-align: left;
+    }
+    .fim-surlyn .container-fluid {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
