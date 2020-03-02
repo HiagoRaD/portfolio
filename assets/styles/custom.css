@@ -22,7 +22,7 @@ palet2 : #ff5454 vermelho
 palet3 : 
 */
 
-.color {
+.color-ff5454 {
     color: #ff5454 !important;
 }
 .active {
@@ -390,6 +390,12 @@ h1 .dev-logo {
     }
     .top-menubar-mob .fa-times {
         float: right;
+    }
+    .icon-row {
+        display: table-cell !important;
+    }
+    .icon-bar {
+        color: #ff5454 !important;
     }
     .mainicons-wrapper {
         margin-top: 10px !important;

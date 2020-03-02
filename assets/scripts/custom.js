@@ -1,7 +1,3 @@
-var _PALHETA = '.color-ff5454';
-
-$('i').addClass(_PALHETA);
-
 $(document).ready(function () {
     // Side menu animations - DESKTOP
     $('.head-wrapper').mouseenter(function () {
@@ -22,8 +18,8 @@ $(document).ready(function () {
 
             $('.icon-row').hide();
             $('.sub-logo').hide();
-            $('.logo-div').css("color", '#ffffff');
             $('.icon-logo').css('color', '#ffffff');
+            $('.logo-div').css("color", '#ffffff');
             $('.icon-row').css('color', '#ffffff');
             $('.icon-bar').css('color', '#ffffff');
         }
@@ -41,14 +37,12 @@ $(document).ready(function () {
 
     var current = "home";
 
-    console.log("current " + current);
     // btn go to 
     $('.goto').click(function() {
         $(window).scrollTop('0px');
 
         current = $(this).attr('id').split('_')[0];
 
-        console.log("current " + current);
         var next = $(this).attr('id').split('_')[2];
 
         $('.' + current).hide();
@@ -62,7 +56,6 @@ $(document).ready(function () {
             $('.' + next).addClass('animated fadeInDown');
         }
         current = next;
-        console.log("current " + current);
     });
 
     // tab btn go to
@@ -70,7 +63,6 @@ $(document).ready(function () {
         $(window).scrollTop('0px');
 
 
-        console.log("current " + current);
         var next = $(this).attr('id').split('_')[1];
 
         $('.' + current).hide();
@@ -88,12 +80,20 @@ $(document).ready(function () {
     });
 
     // mobile menu animations
+
+    if ($(window).width() <= 992) {
+        $('.icon-row').each(function() {
+            $(this).css('diisplay', 'block');
+        });
+    }
+
     $('#open-mob-menu').click(function() {
         $('.head-wrapper').removeClass('animated slideOutLeft');
         $('.head-wrapper').addClass('animated slideInLeft');
         $('.head-wrapper').show();
         $(this).hide();
         $('#close-mob-menu').show();
+        $('.icon-logo').css('color', '#ff5454');
     });
 
     $('#close-mob-menu').click(function() {
@@ -101,6 +101,7 @@ $(document).ready(function () {
         $('.head-wrapper').addClass('animated slideOutLeft');
         $(this).hide();
         $('#open-mob-menu').show();
+        $('.icon-logo').css('color', '#ffffff');
     });
 
     // projects animations
