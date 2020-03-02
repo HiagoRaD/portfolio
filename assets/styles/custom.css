@@ -186,6 +186,9 @@ h1 .dev-logo {
 }
 .icon-row {
     border-bottom: 3px solid transparent;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 18px;
+    margin-bottom: 0px;
 }
 .icon-row:hover {
     transition: 0.1s !important;
@@ -204,10 +207,12 @@ h1 .dev-logo {
     font-family: 'Major Mono Display', monospace;
     display: block;
     color: #ffffff;
-    padding-top: 21px;
     font-size: 17px;
 
     transition: 3s;
+}
+.tab-goto {
+    color: #ffffff;
 }
 .icons-table {
     width: 100%;
@@ -219,9 +224,13 @@ h1 .dev-logo {
 }
 .icons-table tr {
     margin-bottom: 15px;
+    height: 15px;
 }
 .icons-table tr:hover {
     cursor: pointer;
+}
+.icons-table table td {
+    vertical-align: middle;
 }
 .mainicons-wrapper {
     margin-top: 130px !important;
@@ -304,14 +313,15 @@ h1 .dev-logo {
     color: #ffffff;
 }
 
-#batista         { background-image: url('../images/batista.png');}
-#enfermagem      { background-image: url('../images/enfermagem_cut.png');}
-#odontologia     { background-image: url('../images/odontologia_cut.png');}
-#psicologia      { background-image: url('../images/psicologia_cut.png');}
-#palladium_natal { background-image: url('../images/palladium_natal_cut.png');}
-#palladium_imax  { background-image: url('../images/palladium_imax.png');} 
-#entre_ervas     { background-image: url('../images/entre_ervas_cut.png');} 
-#aragon          { background-image: url('../images/aragon_cut.png');} 
+#batista         {background-image: url('../images/batista.png');}
+#enfermagem      {background-image: url('../images/enfermagem_cut.png');}
+#odontologia     {background-image: url('../images/odontologia_cut.png');}
+#psicologia      {background-image: url('../images/psicologia_cut.png');}
+#palladium_natal {background-image: url('../images/palladium_natal_cut.png');}
+#palladium_imax  {background-image: url('../images/palladium_imax.png');} 
+#entre_ervas     {background-image: url('../images/entre_ervas_cut.png');} 
+#aragon          {background-image: url('../images/aragon_cut.png');} 
+#surlyn          {background-image: url('../images/essencia_surlyn_cut.png');} 
 
 
 

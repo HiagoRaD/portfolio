@@ -3,12 +3,12 @@ var _PALHETA = '.color-ff5454';
 $('i').addClass(_PALHETA);
 
 $(document).ready(function () {
-    // // Side menu animations - DESKTOP
+    // Side menu animations - DESKTOP
     $('.head-wrapper').mouseenter(function () {
         if ($(window).width() > 992) {
             $(this).css('width', '15%');
-            $('.info-tab').show();
-            $('.info-tab').addClass('animated fadeIn delay-1');
+            $('.icon-row').show();
+            $('.icon-row').addClass('animated fadeIn delay-1');
             $('.logo-div').css('color', '#ff5454');
             $('.sub-logo').show();
             $('.sub-logo').addClass('animated fadeIn delay-2');
@@ -20,13 +20,24 @@ $(document).ready(function () {
         if ($(window).width() > 992) {
             $(this).css('width', '70px');
 
-            $('.info-tab').hide();
+            $('.icon-row').hide();
             $('.sub-logo').hide();
             $('.logo-div').css("color", '#ffffff');
             $('.icon-logo').css('color', '#ffffff');
+            $('.icon-row').css('color', '#ffffff');
             $('.icon-bar').css('color', '#ffffff');
         }
     });
+
+    // $('.head-wrapper').css('width', '15%');
+    // $('.icon-row').show();
+    // $('.icon-row').addClass('animated fadeIn delay-1');
+    // $('.logo-div').css('color', '#ff5454');
+    // $('.sub-logo').show();
+    // $('.sub-logo').addClass('animated fadeIn delay-2');
+    // $('.icon-logo').css('color', '#ff5454');
+    // $('.icon-logo').addClass('animated fadeIn');
+    // $('.icon-bar').css('color', '#ff5454');
 
     var current = "home";
 
@@ -95,21 +106,13 @@ $(document).ready(function () {
     // projects animations
     $('.project').mouseenter(function () {
         if ($(window).width() > 960) { 
-            console.log('sim')
             $($(this).attr('hover-toggle')).toggleClass('hidden');
             $($(this).attr('hover-toggle')).removeClass('animated fadeOut');
             $($(this).attr('hover-toggle')).addClass('animated fadeIn');        
         }
-        else {
-            console.log('nao');
-        }
     }).mouseleave(function () {   
         if ($(window).width() > 960) { 
-            console.log('sim')
             $($(this).attr('hover-toggle')).toggleClass('hidden');        
-        }
-        else {
-            console.log('nao');
         }
     });
 
