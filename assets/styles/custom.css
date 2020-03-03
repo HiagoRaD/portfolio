@@ -133,9 +133,9 @@ h1 .dev-logo {
 }
 
 /*PAGES*/
-.home     {display: none;}
+.home     {display: block;}
 .about-me {display: none;}
-.projetos {display: block;}
+.projetos {display: none;}
 .contato  {display: none;}
 
 /*END_PAGES*/
