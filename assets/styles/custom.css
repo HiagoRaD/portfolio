@@ -133,9 +133,9 @@ h1 .dev-logo {
 }
 
 /*PAGES*/
-.home     {display: block;}
+.home     {display: none;}
 .about-me {display: none;}
-.projetos {display: none;}
+.projetos {display: block;}
 .contato  {display: none;}
 
 /*END_PAGES*/
@@ -275,9 +275,16 @@ h1 .dev-logo {
     vertical-align: middle;
     transition: 1s; 
 }
+@supports (-ms-ime-align: auto) {
+    .hover-wrapper .icon-wrapper .fa-search {
+        background-color: #ff5454 !important;
+        border-radius: 50%;
+    }
+}
 .icon-wrapper {
     width: fit-content;
     height: fit-content;
+    text-align: center;
 }
 .icon-wrapper .fas {
     padding: 10px 10px;

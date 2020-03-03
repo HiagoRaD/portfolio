@@ -1,3 +1,7 @@
+if ($(window).width() <= 992) {
+    $('.project-row').attr('id', 'slick-on-mobile');
+}
+
 $(document).ready(function () {
     // Side menu animations - DESKTOP
     $('.head-wrapper').mouseenter(function () {
@@ -118,9 +122,7 @@ $(document).ready(function () {
     });
 
 
-    if ($(window).width() <= 992) {
-        $('.project-row').attr('id', 'slick-on-mobile');
-    }
+    
 
     //project slick on mobile 
     $('#slick-on-mobile').slick({
@@ -132,4 +134,5 @@ $(document).ready(function () {
     $('.slick-dots button').each(function() {
         $(this).text('');
     });
+
 });
