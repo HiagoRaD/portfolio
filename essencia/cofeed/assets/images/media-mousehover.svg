@@ -1,0 +1,12 @@
+<svg id="media-mousehover" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="181" height="181" viewBox="0 0 181 181">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.302"/>
+      <stop offset="0.246" stop-opacity="0.302"/>
+      <stop offset="0.527" stop-opacity="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect id="Retângulo_93" data-name="Retângulo 93" width="181" height="181" fill="url(#linear-gradient)"/>
+  <path id="Caminho_474" data-name="Caminho 474" d="M6495.646,2813.995h-25.137v-25.137h9.027v-3.541h-12.569v7.782h-7.781v32.219h32.219v-7.782h7.781v-12.568h-3.541Zm-7.781,7.782h-25.137V2796.64h4.24v20.9h20.9Zm11.322-36.46v16.11h-3.541v-10.064l-11.317,11.316-2.5-2.5,11.317-11.317h-10.066v-3.541Z" transform="translate(-6338.187 -2765.317)" fill="#fff"/>
+</svg>
